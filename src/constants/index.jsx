@@ -77,48 +77,40 @@ const dockApps = [
 const blogPosts = [
     {
         id: 1,
-        date: "Sep 2, 2025",
         title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-        image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+            "Built high-performance medical appointment system with booking, scheduling, admin dashboard, and SMS reminders. admin :123456",
+        image: "/images/onboarding-img.webp",
+        link: "https://mahmoud-carepulse.vercel.app/",
     },
     {
         id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-        image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
-    },
-    {
-        id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+        title: "Built full-featured clinic management system with responsive UI, real-time notifications, and optimized data \n" +
+            "operations\n Admin Login: admin@clinic.com || Password: Admin@123",
+        image: "/images/1q1.png",
+        link: "https://clinicmanagementsystem.runasp.net/Account/Login?ReturnUrl=%2F",
     },
 ];
 
 const techStack = [
     {
         category: "Frontend",
-        items: ["Angular.js","React.js", "Next.js", "TypeScript"],
+        items: ["HTML","JavaScript","TypeScript","Angular.js","React.js", "Next.js"],
     },
     {
         category: "Styling",
-        items: ["TailwindCSS","Bootstrap","MaterialUI"],
+        items: ["CSS","TailwindCSS","Bootstrap","MaterialUI","Shadcn/UI","jQuery"],
     },
     {
         category: "Backend",
-        items: ["C#","ASP.NETCore","Web APIs","LINQ","SQL","EF"],
+        items: ["C#","ASP.NETCore","MVC","WebAPIs","LINQ","EF","JWT","Clean Architecture","RepoPattern"],
     },
     {
         category: "Database",
-        items: ["MySQL","Code-First","StoredProcedures"],
+        items: ["MySQL","Code-First","StoredProcedures"," Database Design","Normalization"],
     },
     {
         category: "Dev Tools",
-        items: ["Git", "GitHub", "Docker","Postman","Swagger","N8N"],
+        items: ["Git", "GitHub", "Docker","Postman","Swagger","N8N","Vercel"],
     },
 ];
 
